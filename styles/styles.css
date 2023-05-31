@@ -36,6 +36,7 @@ main {
 ////////////////////////*/
 body {
     font-family: 'Poppins', Calibri, Verdana, sans-serif;
+    font-weight: 400;
     color: #1C2B32;
 }
 
@@ -78,19 +79,22 @@ a:hover {
 /*////////////////////////
     3. Areas
 ////////////////////////*/
+.header-section {
+    padding: 140px 0 460px 0;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.footer-section {
+    margin: 50px;
+}
 
 /*///////////// 3.1 Header /////////////*/
 header {
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.header-section {
-    padding: 140px 0 460px 0;
-    margin: 0 auto;
-    max-width: 1000px;
-    text-align: center;
 }
 
 .domain-form {
@@ -120,13 +124,13 @@ header {
 }
 
 .domain-field::placeholder {
-color: #1C2B32;
+    color: #1C2B32;
 }
 /*///////////// 3.2 Testimonial /////////////*/
 
 
 /*///////////// 3.3 Support /////////////*/
-.callcenter-img {
+.call-center-img {
     display: block;
     width: 100%;
     margin: auto;
@@ -142,6 +146,33 @@ color: #1C2B32;
 }
 
 /*///////////// 3.4 Faq /////////////*/
+.faq-section {
+    margin-bottom: 50px;
+}
 
+.faq-summary-section {
+    margin: 22px;
+    cursor: pointer;
+}
+
+.faq-details {
+    margin-left: 22px;
+    padding: 18px 24px;
+    color: white;
+    background-color: #899CA0;
+    border-radius: 12px;
+}
 
 /*///////////// 3.5 Footer /////////////*/
+.footer-section {
+    background-color: #1C2B32;
+    margin: 0;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    padding: 24px;
+    margin-bottom: -6px;
+}
